@@ -73,7 +73,7 @@
       </div>
     </main>
 
-    <footer>Ingin kustom pesan, tema warna, atau versi Bahasa Inggris? Ketik aja. 😉</footer>
+    <footer>hasil gabut</footer>
   </div>
 
   <script>
