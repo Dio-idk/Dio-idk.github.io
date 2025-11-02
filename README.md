@@ -234,7 +234,7 @@
       `;
 
       document.getElementById('shareBtn').addEventListener('click', ()=>{
-        const msg = `Hei! Aku kirim kuis lucu nih — coba jawab ya. Hasilmu: ${res.title}. Petunjuk: ${res.clues.join(' | ')}. Mau tebak siapa pengirim?`;
+        const msg = `Hei! Aku kirim kuis lucu nih — coba jawab ya. Hasilku: ${res.title}. Petunjuk: ${res.clues.join(' | ')}. Mau tebak siapa pengirim?`;
         const url = location.href;
         const wa = `https://wa.me/?text=${encodeURIComponent(msg + '\n' + url)}`;
         window.open(wa,'_blank');
